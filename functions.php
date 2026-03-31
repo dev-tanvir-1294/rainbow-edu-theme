@@ -43,6 +43,8 @@ function rainbow_edu_scripts() {
     wp_enqueue_script( 'gsap', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js', array(), '3.12.2', true );
     wp_enqueue_script( 'gsap-scrolltrigger', 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js', array('gsap'), '3.12.2', true );
     wp_enqueue_script( 'rainbow-edu-hero-animations', get_template_directory_uri() . '/assets/js/hero-animations.js', array('gsap', 'gsap-scrolltrigger'), '1.0.0', true );
+    wp_enqueue_script( 'rainbow-edu-ambition-animations', get_template_directory_uri() . '/assets/js/ambition-animations.js', array('gsap', 'gsap-scrolltrigger'), '1.0.0', true );
+    wp_enqueue_script( 'rainbow-edu-footer-animations', get_template_directory_uri() . '/assets/js/footer-animations.js', array('gsap', 'gsap-scrolltrigger'), '1.0.0', true );
 
     if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
         wp_enqueue_script( 'comment-reply' );

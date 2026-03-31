@@ -11,7 +11,7 @@ Rainbow Edu is a custom WordPress theme tailored for schools, universities, and 
 - **Course Management**: Custom post type for courses with categories
 - **Student Enrollment**: Secure enrollment system with form validation
 - **Responsive Design**: Mobile-first design using Tailwind CSS
-- **Animations**: Smooth hero animations using GSAP
+- **Animations**: Smooth hero animations and scroll-triggered footer animations using GSAP
 - **Custom Menus**: Primary and footer navigation menus
 - **WordPress Standards**: Full support for WordPress features including post thumbnails, HTML5, and block styles
 - **Typography**: Inter font for body text and Roboto Condensed for headings

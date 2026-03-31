@@ -267,31 +267,31 @@ get_header(); ?>
                 <!-- Right Column: Masonry Grid -->
                 <!-- We use columns-2 for a seamless masonry layout mimicking the reference -->
                 <div class="w-full relative px-4 lg:px-0 mt-8 lg:mt-0">
-                    <div class="columns-2 gap-4 space-y-4">
+                    <div class="ambition-images-grid columns-2 gap-4 space-y-4">
 
                         <!-- Image 1: Top Left (landscape) -->
-                        <div class="break-inside-avoid relative rounded-3xl overflow-hidden group mb-4">
+                        <div class="ambition-image break-inside-avoid relative rounded-3xl overflow-hidden group mb-4">
                             <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=600&auto=format&fit=crop"
                                 alt="Campus"
                                 class="w-full h-auto object-cover aspect-[4/3] group-hover:scale-105 transition-transform duration-700">
                         </div>
 
                         <!-- Image 2: Middle Left (tall) -->
-                        <div class="break-inside-avoid relative rounded-3xl overflow-hidden group mb-4">
+                        <div class="ambition-image break-inside-avoid relative rounded-3xl overflow-hidden group mb-4">
                             <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=600&auto=format&fit=crop"
                                 alt="Students"
                                 class="w-full h-auto object-cover aspect-[3/4] group-hover:scale-105 transition-transform duration-700">
                         </div>
 
                         <!-- Image 3: Bottom Left (square) -->
-                        <div class="break-inside-avoid relative rounded-3xl overflow-hidden group">
+                        <div class="ambition-image break-inside-avoid relative rounded-3xl overflow-hidden group">
                             <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=600&auto=format&fit=crop"
                                 alt="Lecture"
                                 class="w-full h-auto object-cover aspect-square group-hover:scale-105 transition-transform duration-700">
                         </div>
 
                         <!-- Image 4: Top Right (tall, tech focus) -->
-                        <div class="break-inside-avoid relative rounded-3xl overflow-hidden group mb-4 mt-6 md:mt-12">
+                        <div class="ambition-image break-inside-avoid relative rounded-3xl overflow-hidden group mb-4 mt-6 md:mt-12">
                             <img src="https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?q=80&w=600&auto=format&fit=crop"
                                 alt="VR Tech"
                                 class="w-full h-auto object-cover aspect-[9/16] group-hover:scale-105 transition-transform duration-700">
@@ -302,14 +302,14 @@ get_header(); ?>
                         </div>
 
                         <!-- Image 5: Middle Right (square, activities) -->
-                        <div class="break-inside-avoid relative rounded-3xl overflow-hidden group mb-4">
+                        <div class="ambition-image break-inside-avoid relative rounded-3xl overflow-hidden group mb-4">
                             <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=600&auto=format&fit=crop"
                                 alt="Group Activities"
                                 class="w-full h-auto object-cover aspect-square group-hover:scale-105 transition-transform duration-700">
                         </div>
 
                         <!-- Image 6: Bottom Right (landscape) -->
-                        <div class="break-inside-avoid relative rounded-3xl overflow-hidden group">
+                        <div class="ambition-image break-inside-avoid relative rounded-3xl overflow-hidden group">
                             <img src="https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?q=80&w=600&auto=format&fit=crop"
                                 alt="Library"
                                 class="w-full h-auto object-cover aspect-[4/3] group-hover:scale-105 transition-transform duration-700">
